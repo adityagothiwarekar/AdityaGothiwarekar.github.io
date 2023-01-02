@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arya&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+:root{
+    --clr-neon :hsl(317 100% 54%);
+    --clr-bg: hsl(321 21% 16%);
+    --background-color:#005aff;
+    --background-color-dark: #002d81 ;
+}
+body{
+    background-image: url("portfolio-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+.heading{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    padding: 2px;
+    width: 30%;
+    margin-left: 38%;
+    margin-top: 10px;
+    font-size: 60px;
+    font-family: 'Noto Serif', serif;
+    color: aqua;
+    text-shadow: 0 0 1em black;
+    box-shadow: 0 0 2em white;
+    border-radius: 16px;
+}
+.heading1{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 100px;
+    margin-right: 20px;
+    background-color: rgba(255,255, 255, 0.6);
+}
+.heading1 h2{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.content12{
+    position: relative;
+    background-color: transparent;
+    border: 2px solid black;
+   
+}
+.content1{
+    position: relative;
+    background-color: transparent;
+}
+.content{
+    z-index: 2222;
+    position: relative;
+    top: -10%;
+    margin-left: 485px;
+    height: 600px;
+    width: 968px;
+    background-color: rgba(255,255, 255, 0.6);
+    justify-content: center;
+    display: flex;
+   
+}
+.image1{
+    position: absolute;
+    margin-left: 20px;
+    border: 5px solid #290831;
+    background-image: url("presence.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 465px;
+    background-color: white;
+
+}
+.text{
+    position: relative;
+    padding: 20px;
+    
+}
+.text span{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+.technologies_used{
+    position: absolute;
+    background-color: white;
+    width: 465px;
+    height:400px;
+    left: 20px;
+    margin-top: 200px;
+
+}
+.text2{
+    position: relative;
+    margin-top: 90px;
+    
+}
+.technologies_used span{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    
+    font-family: 'Hind Madurai', sans-serif;
+}
+.align{
+    position: relative;
+    padding: 20px;
+    font-family: 'Asap', sans-serif;
+    font-size: 30px;
+}
+.font{
+    font-family: 'Asap', sans-serif;
+}
+.align1{
+    position: relative;
+    font-family: 'Asap', sans-serif;
+    font-size: 20px;
+}
+.image2{
+    position: absolute;
+    margin-left: 20px;
+    border: 5px solid #290831;
+    background-image: url("6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 465px;
+    background-color: white;
+
+}
+.image3{
+    position: absolute;
+    margin-left: 20px;
+    border: 5px solid #290831;
+    background-image: url("csi.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 465px;
+    background-color: white;
+
+}
+.links{
+    position: relative;
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+   
+
+}
+.logo{
+    position: relative;
+    margin: 20px;
+    justify-content: center;
+    display: flex;
+   
+}
+.logo2{
+    position:absolute;
+    color: white;
+    width: 400px;
+}
+.logo1{
+    position: absolute;
+    left: 500px;;
+    color: white;
+}
+.text5{
+    position: relative;
+    margin: 10%;
+    color: white;
+}
+.logo1 a{
+   
+text-decoration: none;
+padding: 10px;
+}
+.logo1:hover{
+    text-shadow: 0 0 1em white;
+}
+.logo3{
+    position:absolute;
+    z-index: 3;
+    left: 240px;
+}
+.loadtext{
+    position: relative;
+    top: 400px;
+    font-family: 'Tangerine', cursive;
+    font-size: 30px;
+
+ }
+ #preloader{
+    background: white url("logo.png") no-repeat center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    justify-content: center;
+    display: flex;
+ }
+ 
+
+
